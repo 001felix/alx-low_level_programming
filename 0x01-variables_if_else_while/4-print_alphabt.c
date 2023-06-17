@@ -11,7 +11,7 @@ int main(void)
 
 	int r;
 
-	for (r = 0; r <= 24; r++)
+	for (r = 0; r < 24; r++)
 	{
 		putchar(alp[r]);
 	}
