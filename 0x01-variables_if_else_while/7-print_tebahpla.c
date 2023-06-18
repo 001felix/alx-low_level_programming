@@ -6,8 +6,16 @@
 
 int main(void)
 {
-        int n;
+	char alp[26] =
+		"zyxwvutsrqponmlkjihgfedcba";
 
+	int p;
 
+	for (p = 0; p < 26; p++)
+	{
+		putchar(alp[p]);
+	}
+	putchar('\n');
 
-        return (0);
+	return (0);
+}
