@@ -10,8 +10,12 @@ int main(void)
 
 	for (i = 28; i < 38; i++)
 	{
+
 	putchar(i);
+
 	}
+	
 	putchar('\n');
+	
 	return (0);
 }
