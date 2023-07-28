@@ -1,6 +1,12 @@
-#include <stddef.h>
+#ifndef LIST_H
+#define LIST_H
+/*
+ * File:lists.h
+ * Author: Felix Nduhiu
+ * Description: header file and all the prototypes.
+ */
+
 #include <stdlib.h>
-#include <string.h>
 
 /**
  * struct list_s - singly linked list
@@ -23,4 +29,4 @@ list_t *add_node(list_t **head, const char *str);
 list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 
-#endif /*LINKED*/
+#endif /*LIST_H*/
