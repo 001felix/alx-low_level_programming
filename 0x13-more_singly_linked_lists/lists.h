@@ -8,6 +8,7 @@
  * struct listint_s
  * @n: integer
  * @next: points to the next node
+ *
  * Description: singly list node structure
  */
 
